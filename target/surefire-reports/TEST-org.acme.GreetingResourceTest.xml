@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.acme.GreetingResourceTest" time="2.26" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.acme.GreetingResourceTest" time="2.327" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="test.url" value="http://localhost:8081"/>
@@ -14,7 +14,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="KE"/>
     <property name="sun.boot.library.path" value="/Users/admin/.sdkman/candidates/java/17.0.3-tem/lib"/>
-    <property name="sun.java.command" value="/Users/admin/Desktop/personal-code/deltapay/devOps/code-with-quarkus/target/surefire/surefirebooter-20220824012825860_3.jar /Users/admin/Desktop/personal-code/deltapay/devOps/code-with-quarkus/target/surefire 2022-08-24T01-28-25_761-jvmRun1 surefire-20220824012825860_1tmp surefire_0-20220824012825860_2tmp"/>
+    <property name="sun.java.command" value="/Users/admin/Desktop/personal-code/deltapay/devOps/code-with-quarkus/target/surefire/surefirebooter-20220824201105983_3.jar /Users/admin/Desktop/personal-code/deltapay/devOps/code-with-quarkus/target/surefire 2022-08-24T20-11-05_867-jvmRun1 surefire-20220824201105983_1tmp surefire_0-20220824201105983_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="maven.home" value="/opt/homebrew/Cellar/maven/3.8.4/libexec"/>
     <property name="jdk.debug" value="release"/>
@@ -32,7 +32,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="/Users/admin/Desktop/personal-code/deltapay/devOps/code-with-quarkus/target/surefire/surefirebooter-20220824012825860_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/admin/Desktop/personal-code/deltapay/devOps/code-with-quarkus/target/surefire/surefirebooter-20220824201105983_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="17.0.3+7"/>
@@ -61,15 +61,15 @@
     <property name="vertx.disableTCCL" value="true"/>
     <property name="java.vm.version" value="17.0.3+7"/>
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
-    <property name="io.netty.machineId" value="b8:b1:99:46:8b:6a:0c:eb"/>
+    <property name="io.netty.machineId" value="96:27:bb:1e:04:6f:07:8e"/>
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="testHelloEndpoint" classname="org.acme.GreetingResourceTest" time="0.58">
-    <system-out><![CDATA[2022-08-24 01:28:27,469 INFO  [org.jbo.threads] (main) JBoss Threads version 3.4.2.Final
-2022-08-24 01:28:28,010 INFO  [io.quarkus] (main) code-with-quarkus 1.0.0-SNAPSHOT on JVM (powered by Quarkus 2.11.2.Final) started in 0.777s. Listening on: http://localhost:8081
-2022-08-24 01:28:28,010 INFO  [io.quarkus] (main) Profile test activated. 
-2022-08-24 01:28:28,010 INFO  [io.quarkus] (main) Installed features: [cdi, resteasy-reactive, resteasy-reactive-jackson, smallrye-context-propagation, vertx]
+  <testcase name="testHelloEndpoint" classname="org.acme.GreetingResourceTest" time="0.561">
+    <system-out><![CDATA[2022-08-24 20:11:07,479 INFO  [org.jbo.threads] (main) JBoss Threads version 3.4.2.Final
+2022-08-24 20:11:08,080 INFO  [io.quarkus] (main) code-with-quarkus 1.0.0-SNAPSHOT on JVM (powered by Quarkus 2.11.2.Final) started in 0.811s. Listening on: http://localhost:8081
+2022-08-24 20:11:08,081 INFO  [io.quarkus] (main) Profile test activated. 
+2022-08-24 20:11:08,081 INFO  [io.quarkus] (main) Installed features: [cdi, resteasy-reactive, resteasy-reactive-jackson, smallrye-context-propagation, vertx]
 ]]></system-out>
   </testcase>
 </testsuite>

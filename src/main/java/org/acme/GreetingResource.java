@@ -11,6 +11,6 @@ public class GreetingResource {
     @GET
     @Produces(MediaType.TEXT_PLAIN)
     public String hello() {
-        return "I was able to setup GCP CI / CD";
+        return "I was able to setup CI / CD on GCP";
     }
 }
